@@ -2,7 +2,7 @@
 ### Play VAST ads on HTML5 Video
 
 
-## Uso
+## Use
   * Add the tag video to your HTML. Assign width, height and ID.
 
         <video id="video" width="640" height="360" controls autoplay>
