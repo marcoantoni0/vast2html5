@@ -1,5 +1,5 @@
 # VAST2HTML5
-  #### Play VAST ads on HTML5 Video
+### Play VAST ads on HTML5 Video
 
 
 ## Uso
@@ -11,7 +11,7 @@
 
   * Enter the code and call the function in your javascript.
 
-        vast2html5(*url-do-anúncio*, *id-da-tag*);
+        vast2html5(*ad-url*, *video-tag-id*);
 
 
 ## Javascript
