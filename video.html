@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="popcorn.js"></script>
+    <script src="vast2html5.js"></script>
+</head>
+<body>
+    <video id="video" width="640" height="360" controls autoplay>
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        var timestamp = Date.now(),
+            vast_url = 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/119443034/elav_test_video_640x360&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=' + timestamp;
+
+        vast2html5(vast_url, 'video');
+    </script>
+</body>
+</html>
