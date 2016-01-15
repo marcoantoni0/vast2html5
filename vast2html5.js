@@ -37,9 +37,9 @@ function vast2html5(url, id) {
     img.height = "1px";
     img.style.display = "none";
     img.src = vastData.impression;
-    img.id = 'events' + id;
+    img.id = 'events-' + id;
     document.body.appendChild(img);
-    var imgEvents = document.getElementById('events' + id);
+    var imgEvents = document.getElementById('events-' + id);
 
     if (elSize in vast_obj.creative[0].medias) {
         var format = vast_obj.creative[0].medias[elSize];
